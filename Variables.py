@@ -1,0 +1,22 @@
+# Variable
+
+my_string_variable = "My String variable"
+print(my_string_variable)
+
+my_int_variable = 5
+print(my_int_variable)
+
+my_int_to_str_variable = str(my_int_variable)
+print(my_int_to_str_variable)
+print(type(my_int_to_str_variable))
+
+my_bool_variable = False
+print(my_bool_variable)
+
+# Concatenación de cvariables en un print
+print(my_string_variable, my_int_to_str_variable, my_bool_variable)
+print("El valor es:", my_bool_variable)
+
+# Fuanciones de sistema
+print(len(my_string_variable)) # 'len()' cuenta los caracteres de un string, inclusio los espacios.
+
