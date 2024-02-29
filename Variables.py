@@ -17,6 +17,25 @@ print(my_bool_variable)
 print(my_string_variable, my_int_to_str_variable, my_bool_variable)
 print("El valor es:", my_bool_variable)
 
-# Fuanciones de sistema
+# Algunas fuanciones de sistema
 print(len(my_string_variable)) # 'len()' cuenta los caracteres de un string, inclusio los espacios.
 
+# Variables en una sola línea
+name, surname, alias, age = "Joel", "Stadelman", "Grandote", 23
+print("Me llamo",name, surname,"tengo", age, "anios de edad","y mi alias es", alias)
+print(type(age))
+
+# Inputs
+"""
+name = input("What is your name:")
+age = input("How old are you:")
+"""
+print(name)
+print(age)
+
+# Cambiamos su tipo
+name = 23
+age = "Joel"
+
+print(name)
+print(age)
