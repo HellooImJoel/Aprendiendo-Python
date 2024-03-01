@@ -13,11 +13,11 @@ print(type(my_int_to_str_variable))
 my_bool_variable = False
 print(my_bool_variable)
 
-# Concatenación de cvariables en un print
+# Concatenación de variables en un print
 print(my_string_variable, my_int_to_str_variable, my_bool_variable)
 print("El valor es:", my_bool_variable)
 
-# Algunas fuanciones de sistema
+# Algunas funciones de sistema
 print(len(my_string_variable)) # 'len()' cuenta los caracteres de un string, inclusio los espacios.
 
 # Variables en una sola línea
@@ -39,3 +39,10 @@ age = "Joel"
 
 print(name)
 print(age)
+
+# Forzamos el tipo?  en los 'input' es bueno utilizar esto, ya que restringimos a que el dato que ingresa sea del tipo que queremos.
+address: str = "Mi direccion"
+address: int = 32
+print(address)
+
+
