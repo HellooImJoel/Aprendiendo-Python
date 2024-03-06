@@ -119,3 +119,12 @@ print(my_new_list)
 
 print(my_new_list[1:3]) # conociendo el indice se pueden hacer sublistas.
 
+
+
+
+
+
+
+
+
+
