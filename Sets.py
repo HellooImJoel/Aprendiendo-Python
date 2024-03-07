@@ -49,12 +49,3 @@ print(my_new_set)
 print(my_new_set.difference(my_set))
 
 
-
-
-
-
-
-
-
-
-
