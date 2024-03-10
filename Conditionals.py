@@ -16,7 +16,7 @@ operators we learned in previous sections will be useful here.
 
 
 """
-'If' Conditional 
+        >> 'If' Conditional <<
 
 In python and other programming languages the key word 'if' is used to check if 
 a condition is true and to execute the block code. Remember the indentation after the colon.
@@ -42,7 +42,7 @@ if my_condition == 10:
 
 
 """
-If Else
+        >> If Else <<
 
 If condition is true the first block will be executed, if not the else condition will run.
 
@@ -59,13 +59,42 @@ if my_condition > 10 and my_condition < 20:
 else:
     print("Es menor o igual que 10 o igual que 20")
 
+"""
+        >> If Elif Else <<
+
+In our daily life, we make decisions on daily basis. 
+We make decisions not by checking one or two conditions but multiple conditions. 
+As similar to life, programming is also full of conditions. We use elif when we have multiple conditions.
+
+# syntax
+if condition:
+    code
+elif condition:
+    code
+else:
+    code
+"""
+
+print("##################################################")
+
+my_condition = 5*5
+
+if my_condition > 10 and my_condition < 20:  
+    print("Es mayor que 10 y menor que 20")
+elif my_condition == 25:
+    print("Es igual a 25")
+else:
+    print("Es menor o igual que 10 o igual que 20 o distinto de 25")
 
 
 
+my_string = ""   # Si tenemos un string vacio lo concidera como 'False'
 
+if not my_string:
+    print("mi cadena de texto es vacia")
 
-
-
+if my_string == "Mi cadena de texto":
+    print("mi cadena de texto no es vacia")
 
 
 
