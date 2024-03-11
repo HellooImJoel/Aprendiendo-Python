@@ -64,9 +64,33 @@ my_list = [23, 35, 52, 30, 30, 24, 67]
 for element in my_list:   # El bucle 'for' se ejecuta tantas veces como elementos tenga la lista.
     print(element) 
 
+print("-----------------------------------------")
+my_tuple = (23, 1.92, "Joel", "Stadelman", "Joel")
 
+for element in my_tuple:
+    print(element)
 
+print("-----------------------------------------")
+my_set = {"Joel", "Stadelman", 23}
 
+for element in my_set:
+    print(element)
 
+print("-----------------------------------------")
+my_dict = {
+            'Nombre':"Joel",
+            'Apellido':"Stadelman", 
+            'Edad':23, 
+            'Lenguajes':{"Python", "Swifit", "Kotlin"},
+            1:1.92
+            }
+
+for element in my_dict:
+    print(element)
+    if element == "Edad":
+        continue
+    print("esto se ejecuta")
+else:
+    print("EL bucle 'for' para mi diccionario ha terminado")
 
 
