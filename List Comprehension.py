@@ -29,8 +29,7 @@ print(my_list)
 
 # esto permite crear una lista de forma rapida y donde se puede ir modificando a medida que se va creando.
 # pueden aplicarse funciones o lo que sea necesario para realizar dichas modificaciones.
-
-
+# el punto clave es que "se esta modificando un valor antes de guardarlo."
 
 
 
