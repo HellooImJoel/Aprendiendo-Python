@@ -27,7 +27,7 @@ my_condition = 0
 
 while my_condition < 10:
     print(my_condition)
-    my_condition += 2
+    my_condition += 2 
 else:      # es opcional
     print("Mi condicion es mayor o igual que 10") # Al 'While' se le puede agregar una condicion utilizando 'else' para cuando el bucle termine.
 
