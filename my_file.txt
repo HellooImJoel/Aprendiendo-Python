@@ -1,0 +1,5 @@
+Mi nombre es Joel
+Mi apellido es Stadelman
+Tengo 23 años
+Mi lenguaje preferido es Python
+Aunque tambien me gusta C#
