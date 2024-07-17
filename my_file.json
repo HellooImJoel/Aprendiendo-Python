@@ -1,0 +1,11 @@
+{
+  "name": "Joel",
+  "surname": "Stadelman",
+  "age": 23,
+  "languages": [
+    "Python",
+    "MongoDB",
+    "Kotlin"
+  ],
+  "website": "https://joelst.dev"
+}
